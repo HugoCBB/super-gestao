@@ -19,7 +19,10 @@ func HandleRequest() {
 
 		task := api.Group("/task")
 		{
+			task.GET("/", controllers.Tasks)
+			task.GET("/obter/:id", controllers.ObterMensagemPorId)
 			task.POST("/adicionar", controllers.AdicionarMensagem)
+
 		}
 	}
 
