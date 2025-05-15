@@ -22,7 +22,7 @@ func AdicionarMensagem(c *gin.Context) {
 
 	if err := c.ShouldBindBodyWithJSON(&t); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{
-			"error": "Erro ao adicionar mensagem usuario",
+			"error": "Erro ao adicionar mensagem",
 		})
 		return
 	}

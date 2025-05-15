@@ -28,3 +28,7 @@ frontend/*.ntvs*
 frontend/*.njsproj
 frontend/*.sln
 frontend/*.sw?
+
+
+automation/__pycache__
+automation/service/__pycache__
