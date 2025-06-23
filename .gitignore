@@ -2,7 +2,8 @@ venv
 .env
 .venv
 
-Api/tmp
+api/tmp
+api/.env
 
 # Logs
 frontend/logs

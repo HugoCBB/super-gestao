@@ -48,7 +48,7 @@ func ObterMensagemPorId(c *gin.Context) {
 
 	// 	Enviar task
 	c.JSON(http.StatusOK, gin.H{
-		"tarefa": t,
+		"task": t,
 	})
 
 }
